@@ -486,7 +486,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-
   margin-bottom: 72px;
 }
 
@@ -649,8 +648,8 @@ body {
   height: 100%;
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity var(--transition-dur-and-func),
-    visibility var(--transition-dur-and-func),
-    pointer-events var(--transition-dur-and-func);
+    visibility var(--transition-dur-and-func);
+  /* pointer-events var(--transition-dur-and-func); */
 }
 .backdrop.is-hidden {
   opacity: 0;
